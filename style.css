@@ -47,11 +47,13 @@ main{
      color: var(--clr-white);
      font-size: 5rem;
      font-weight: 700;
+     padding-inline: 1rem;
 }
 
 .text p{
      color: var(--clr-white);
      font-size: 1.4rem;
+     padding-inline: 1rem;
 }
 
 .btn{
@@ -80,7 +82,7 @@ main{
 }
 
 .form-area{
-     margin: 5em;
+     margin: 2em;
 }
 
 .btn1:hover,
@@ -151,11 +153,11 @@ form a{
 
 @media (max-width: 1000px){
      .text{
-          margin-top: 2rem;
+          margin-top: 3rem;
           min-height: auto;
      }
      .text h1{
-          font-size: 4rem;
+          font-size: 3.5rem;
           font-weight: 700;
      }
      .text p{
@@ -163,5 +165,49 @@ form a{
      }
      main{
           flex-direction: column;
+     }
+}
+
+@media (max-width: 600px){
+     .text{
+          margin-top: 2rem;
+          min-height: auto;
+     }
+     .text h1{
+          font-size: 3rem;
+          font-weight: 700;
+     }
+     .text p{
+          font-size: .9rem;
+     }
+     main{
+          flex-direction: column;
+     }
+}
+
+@media (max-width: 400px){
+     .text{
+          margin-top: 2rem;
+          min-height: auto;
+     }
+     .text h1{
+          font-size: 2rem;
+          font-weight: 700;
+     }
+     .text p{
+          font-size: .8rem;
+     }
+     main{
+          flex-direction: column;
+     }
+     .btn2{
+          font-size: .9rem;
+          margin: 1.5rem;
+     }
+     form input{
+          font-size: .9rem;
+     }
+     form p{
+          font-size: .95rem;
      }
 }
